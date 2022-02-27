@@ -1,0 +1,35 @@
+{
+  "canisters": {
+    "ICbootCamp": {
+      "main": "src/ICbootCamp/main.mo",
+      "type": "motoko"
+    },
+    "ICbootCamp_assets": {
+      "dependencies": [
+        "ICbootCamp"
+      ],
+      "frontend": {
+        "entrypoint": "src/ICbootCamp_assets/src/index.html"
+      },
+      "source": [
+        "src/ICbootCamp_assets/assets",
+        "dist/ICbootCamp_assets/"
+      ],
+      "type": "assets"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": ""
+    }
+  },
+  "dfx": "0.8.4",
+  "networks": {
+    "local": {
+      "bind": "127.0.0.1:8000",
+      "type": "ephemeral"
+    }
+  },
+  "version": 1
+}
