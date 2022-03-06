@@ -1,5 +1,6 @@
 export const idlFactory = ({ IDL }) => {
   return IDL.Service({
+    'clear_counter' : IDL.Func([], [], []),
     'days_to_second' : IDL.Func([IDL.Nat], [IDL.Nat], []),
     'greet' : IDL.Func([IDL.Text], [IDL.Text], []),
     'increment_counter' : IDL.Func([], [IDL.Nat], []),

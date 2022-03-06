@@ -32,12 +32,15 @@ public func days_to_second(days : Nat)  : async Nat{
 // (86_400 : nat)
 
 // Challenge 4 : Write two functions increment_counter & clear_counter .
-stable var counter = 0;
+var counter = 0;
 public func increment_counter()  : async Nat{
     counter += 1; 
     return counter;
 };
- 
-
+public func clear_counter()  : async (){
+    counter += 0 ;
+    
+};
+// not able to get it to reset
 
 };   //end of actor 

@@ -1,5 +1,6 @@
 import type { Principal } from '@dfinity/principal';
 export interface _SERVICE {
+  'clear_counter' : () => Promise<undefined>,
   'days_to_second' : (arg_0: bigint) => Promise<bigint>,
   'greet' : (arg_0: string) => Promise<string>,
   'increment_counter' : () => Promise<bigint>,
