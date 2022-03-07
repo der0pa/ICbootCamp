@@ -68,6 +68,6 @@ public func inf_to_one (n : Nat) : async Text {
         };
     };
 //
-    
+    // 7 --> 10 are on arrays .... waiting on buffers talk 
 
 };   //end of actor 
