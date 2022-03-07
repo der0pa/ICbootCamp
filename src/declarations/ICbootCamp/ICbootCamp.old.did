@@ -1,0 +1,10 @@
+service : {
+  clear_counter: () -> ();
+  days_to_second: (nat) -> (nat);
+  equal_to_one: (nat) -> (text);
+  greet: (text) -> (text);
+  increment_counter: () -> (nat);
+  inf_to_one: (nat) -> (text);
+  sqr: (nat) -> (nat);
+  sum: (nat, nat) -> (nat);
+}

@@ -67,7 +67,9 @@ public func inf_to_one (n : Nat) : async Text {
             return("n is equal to 1!");
         };
     };
-//
+    //[8:41:30 PM] Use this link to access the code: https://m7sm4-2iaaa-aaaab-qabra-cai.raw.ic0.app/?tag=647148564
+    
+    // 
     // 7 --> 10 are on arrays .... waiting on buffers talk 
 
 };   //end of actor 
