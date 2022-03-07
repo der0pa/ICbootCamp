@@ -38,7 +38,7 @@ public func increment_counter()  : async Nat{
     return counter;
 };
 public func clear_counter()  : async (){
-    counter += 0 ;
+    counter := 0 ;
     
 };
 // not able to get it to reset
@@ -46,13 +46,12 @@ public func clear_counter()  : async (){
 // Challenge 5 : Write a function divide that takes two natural 
 // numbers n and m and returns a boolean indicating 
 // if n divides m.
-    public func equal_to_one (n5 : Nat, m5) : async Text{
-        if(n5 == 1) {
+  public func equal_to_one (n : Nat) : async Text {
+        if(n == 1) {
             return("n is equal to 1 !");
         } else {
             return ("n is not equal to 1 !");
         };
     };
-
 
 };   //end of actor 
