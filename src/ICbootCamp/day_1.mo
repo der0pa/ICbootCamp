@@ -54,4 +54,20 @@ public func clear_counter()  : async (){
         };
     };
 
+// Challenge 6 : Write a function is_even that takes a natural 
+// number n and returns a boolean indicating if n is even.
+
+public func inf_to_one (n : Nat) : async Text {
+        if(n < 1){
+            return("n is below 1 !");
+        };
+        if( n > 1){
+            return("n is above 1 !");
+        } else {
+            return("n is equal to 1!");
+        };
+    };
+//
+    
+
 };   //end of actor 
