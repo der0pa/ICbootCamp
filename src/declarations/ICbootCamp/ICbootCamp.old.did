@@ -1,8 +1,0 @@
-service : {
-  clear_counter: () -> ();
-  days_to_second: (nat) -> (nat);
-  greet: (text) -> (text);
-  increment_counter: () -> (nat);
-  sqr: (nat) -> (nat);
-  sum: (nat, nat) -> (nat);
-}
