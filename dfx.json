@@ -1,7 +1,7 @@
 {
   "canisters": {
     "ICbootCamp": {
-      "main": "src/ICbootCamp/day_2.mo",
+      "main": "src/ICbootCamp/Main.mo",
       "type": "motoko"
     },
     "ICbootCamp_assets": {
